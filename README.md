@@ -1,32 +1,25 @@
-# Daily Learning Log
+# Daily LLM/NLP Projects
 
-A personal log tracking my daily CS/NLP/ML learning journey.
+> Automatically generated NLP and ML projects for continuous learning.
+> New project added daily via GitHub Actions.
 
-## Stats
+## Projects (1 total)
 
-| Metric | Value |
-|--------|-------|
-| Current Streak | 1 days |
-| Total Entries | 1 |
-| Last Updated | 2026-11-11 |
-
-## Today's Focus
-
-> Read about knowledge graph embeddings
-
-## Daily Tip
-
-Tip: Keep functions under 20 lines when possible.
+| Date | Project | Tags |
+|------|---------|------|
+| 2026-11-12 | [Lexicon-Based Sentiment](projects/sentiment_lexicon_20261112/) | `NLP`, `sentiment`, `lexicon` |
 
 ## About
 
-This repo tracks my daily learning and coding activity.
-Each day, I log what I studied or worked on, building
-a consistent habit of learning and growth.
+This repository contains daily auto-generated NLP/ML mini-projects covering:
+- Text classification and sentiment analysis
+- Word embeddings and distributional semantics
+- Language detection and identification
+- Text normalization and preprocessing
+- N-gram language models
+- Spell checking and correction
+- And more!
 
-Topics: NLP, Machine Learning, Computational Linguistics,
-Software Engineering, Data Structures & Algorithms.
+Each project is self-contained with implementation, tests, and documentation.
 
----
-
-*Updated daily via GitHub Actions*
+**Author:** Shikhar Sharma — M.Sc. Computational Linguistics, University of Stuttgart

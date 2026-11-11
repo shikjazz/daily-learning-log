@@ -25,11 +25,22 @@ jobs:
       - name: Run daily commit script
         run: python daily_commit.py
 
+      - name: Generate daily LLM project
+        run: python generate_project.py
+
       - name: Commit and push
         run: |
           git config user.name "Shikhar Sharma"
-          git config user.email "shik99990@gmail.com"
+          git config user.email "shikjazz@users.noreply.github.com"
           git add -A
           git diff --cached --quiet && echo "No changes to commit" && exit 0
-          git commit -m "log: daily learning entry for $(date +%Y-%m-%d)"
+
+          PROJECT_NAME=$(python -c "
+          from datetime import datetime
+          from generate_project import get_project_for_date
+          p = get_project_for_date(datetime.now())
+          print(p['name'])
+          ")
+
+          git commit -m "daily: learning log + ${PROJECT_NAME} project ($(date +%Y-%m-%d))"
           git push
