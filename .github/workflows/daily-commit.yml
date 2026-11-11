@@ -1,0 +1,35 @@
+name: Daily Learning Log
+
+on:
+  schedule:
+    # Runs every day at a random-ish time (8:42 AM UTC = ~9:42 AM CET)
+    - cron: '42 8 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  daily-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run daily commit script
+        run: python daily_commit.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "Shikhar Sharma"
+          git config user.email "shik99990@gmail.com"
+          git add -A
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "log: daily learning entry for $(date +%Y-%m-%d)"
+          git push
