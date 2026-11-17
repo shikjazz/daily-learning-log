@@ -41,8 +41,15 @@
       "topic": "Practiced data structure implementations",
       "tip": "Tip: Read the error message before Googling it.",
       "streak": 6
+    },
+    {
+      "date": "2026-11-17",
+      "timestamp": "2026-11-17T17:52:17.978795+00:00",
+      "topic": "Studied question answering systems",
+      "tip": "Tip: Use `torch.no_grad()` during inference to save memory.",
+      "streak": 7
     }
   ],
-  "streak": 6,
-  "total_commits": 6
+  "streak": 7,
+  "total_commits": 7
 }
