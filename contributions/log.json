@@ -48,8 +48,15 @@
       "topic": "Studied question answering systems",
       "tip": "Tip: Use `torch.no_grad()` during inference to save memory.",
       "streak": 7
+    },
+    {
+      "date": "2026-11-18",
+      "timestamp": "2026-11-18T17:31:03.156835+00:00",
+      "topic": "Reviewed dependency parsing methods",
+      "tip": "Tip: Pre-tokenize large datasets offline for faster training.",
+      "streak": 8
     }
   ],
-  "streak": 7,
-  "total_commits": 7
+  "streak": 8,
+  "total_commits": 8
 }

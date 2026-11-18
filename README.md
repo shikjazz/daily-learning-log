@@ -3,11 +3,12 @@
 > Automatically generated NLP and ML projects for continuous learning.
 > New project added daily via GitHub Actions.
 
-## Projects (6 total)
+## Projects (7 total)
 
 | Date | Project | Tags |
 |------|---------|------|
 | 2026-11-16 | [Word Embedding Similarity](projects/word_embeddings_20261116/) | `NLP`, `embeddings`, `word2vec` |
+| 2026-11-18 | [Text Normalizer](projects/text_normalizer_20261118/) | `NLP`, `preprocessing`, `unicode` |
 | 2026-11-15 | [Text Classifier](projects/text_classifier_20261115/) | `NLP`, `classification`, `TF-IDF` |
 | 2026-11-14 | [Spell Checker](projects/spell_checker_20261114/) | `NLP`, `spell-checking`, `edit-distance` |
 | 2026-11-12 | [Lexicon-Based Sentiment](projects/sentiment_lexicon_20261112/) | `NLP`, `sentiment`, `lexicon` |
