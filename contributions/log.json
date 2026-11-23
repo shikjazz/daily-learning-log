@@ -83,8 +83,15 @@
       "topic": "Practiced algorithm complexity analysis",
       "tip": "Tip: Batch your GPU operations to maximize throughput.",
       "streak": 12
+    },
+    {
+      "date": "2026-11-23",
+      "timestamp": "2026-11-23T20:31:06.211875+00:00",
+      "topic": "Studied computational linguistics formalisms",
+      "tip": "Tip: Write tests before refactoring legacy code.",
+      "streak": 13
     }
   ],
-  "streak": 12,
-  "total_commits": 12
+  "streak": 13,
+  "total_commits": 13
 }
