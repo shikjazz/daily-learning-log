@@ -3,7 +3,7 @@
 > Automatically generated NLP and ML projects for continuous learning.
 > New project added daily via GitHub Actions.
 
-## Projects (12 total)
+## Projects (13 total)
 
 | Date | Project | Tags |
 |------|---------|------|
@@ -18,6 +18,7 @@
 | 2026-11-12 | [Lexicon-Based Sentiment](projects/sentiment_lexicon_20261112/) | `NLP`, `sentiment`, `lexicon` |
 | 2026-11-20 | [N-gram Language Model](projects/ngram_model_20261120/) | `NLP`, `language-model`, `n-grams`, `statistics` |
 | 2026-11-13 | [N-gram Language Model](projects/ngram_model_20261113/) | `NLP`, `language-model`, `n-grams`, `statistics` |
+| 2026-11-24 | [Language Detector](projects/language_detector_20261124/) | `NLP`, `language-detection`, `n-grams` |
 | 2026-11-17 | [Language Detector](projects/language_detector_20261117/) | `NLP`, `language-detection`, `n-grams` |
 
 ## About
